@@ -5,7 +5,7 @@ date: 2012-12-21 21:35
 comments: true
 categories: htpc
 ---
-With my [core gaming HTPC](/blog/2012/12/21/gaming-htpc-fundamentals/) in place and [wireless connectivity](/blog/2012/12/21/adding-wireless-everything-to-the-gaming-htpc/) with almost no effort, I found some interesting challenges with software integration. Ultimately, I found a way to almost seamlessly integrate XBMC, Steam, and Netflix, using XBMC as the primary front-end. It took some hacking, but was well worth it, and best of all: no keyboard or mouse required.
+With my [core gaming HTPC](/blog/2012/12/21/gaming-htpc-fundamentals/) in place and [wireless connectivity](/blog/2012/12/21/adding-wireless-everything-to-the-gaming-htpc/) and no trouble along the way, I found some interesting challenges with software integration. Ultimately, I found a way to almost seamlessly integrate XBMC, Steam, and Netflix using XBMC as the primary front-end. It took some hacking, but was well worth it, and best of all: no keyboard or mouse required.
 
 <!-- more -->
 
