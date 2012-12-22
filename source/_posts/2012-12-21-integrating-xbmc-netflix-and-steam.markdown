@@ -57,13 +57,32 @@ Compile the script, set up an XBMC Advanced Launcher entry to execute it, and yo
 
 ## Jumping through hoops for Netflix
 
-The only way I know of to use Netflix in a remote-compatible way in Windows is via the Netflix plugin within Windows Media Center. The arcane and opaque nature of WMC made figuring out how to launch the Netflix plugin directly from the command line a bit trickier. I lucked out with some Google searching, and was able to find a command to jump straight to Netflix. Caveat: There is a benign proxy error that appears during the Netflix loading which must be dismissed. It's possible to automatically dismiss it with AutoHotkey, but I haven't yet spent the time to do so. Here's the script:
+The only way I know of to use Netflix in a remote-compatible way in Windows is via the Netflix plugin within Windows Media Center. The arcane and opaque nature of WMC made figuring out how to launch the Netflix plugin directly from the command line a bit trickier. I lucked out with some Google searching, and was able to find a command to jump straight to Netflix. A little time spent with the AutoHotkey Window Spy utility revealed the Media Center window class for manipulation.
+
+Here's the script:
 
 ```
-TODO: Insert the script upon my glorious return to the home
+#NoEnv
+SendMode Input
+SetWorkingDir %A_ScriptDir%
+#Persistent
+#SingleInstance
+
+if WinExist("ahk_class eHome Render Window")
+	WinActivate
+else
+	run, C:\Windows\ehome\ehshell.exe /url:windowsmediacenterapp:{e6f46126-f8a9-4a97-9159-b70b07890112}\{982ea9d3-915c-4713-a3c8-99a4688b7c59}?EntryPointParameters=
+
+WinWait, ahk_class eHome Render Window
+WinWaitClose, ahk_class eHome Render Window
+WinActivate ahk_class XBMC
+ExitApp
 ```
 
-One other minor annoyance is that exiting Windows Media Center with the remote takes some menu diving. There's probably a faster way to accomplish it, but I haven't cared enough to figure it out yet.
+Caveats:
+
+* There is a benign proxy error that appears during the Netflix loading which must be dismissed. It's possible to automatically dismiss it with AutoHotkey, but I haven't yet spent the time to do so.
+* Exiting Windows Media Center with the remote takes some menu diving. There's probably a faster way to accomplish it, but I haven't cared enough to figure it out yet.
 
 ## What else?
 
