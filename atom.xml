@@ -4,7 +4,7 @@
   <title><![CDATA[Dan Mace]]></title>
   <link href="http://ironcladlou.github.com/atom.xml" rel="self"/>
   <link href="http://ironcladlou.github.com/"/>
-  <updated>2012-12-21T10:20:39-05:00</updated>
+  <updated>2012-12-21T21:33:48-05:00</updated>
   <id>http://ironcladlou.github.com/</id>
   <author>
     <name><![CDATA[Dan Mace]]></name>
@@ -14,29 +14,119 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Gaming HTPC Adventures: Integrating XBMC, Steam, and Netflix]]></title>
-    <link href="http://ironcladlou.github.com/blog/2012/12/20/gaming-htpc-adventures-integrating-xbmc-steam-and-netflix/"/>
-    <updated>2012-12-20T23:20:00-05:00</updated>
-    <id>http://ironcladlou.github.com/blog/2012/12/20/gaming-htpc-adventures-integrating-xbmc-steam-and-netflix</id>
-    <content type="html"><![CDATA[<p>TODO: Write the blog post.</p>
+    <title type="html"><![CDATA[Adding wireless everything to the gaming HTPC]]></title>
+    <link href="http://ironcladlou.github.com/blog/2012/12/21/adding-wireless-everything-to-the-gaming-htpc/"/>
+    <updated>2012-12-21T20:42:00-05:00</updated>
+    <id>http://ironcladlou.github.com/blog/2012/12/21/adding-wireless-everything-to-the-gaming-htpc</id>
+    <content type="html"><![CDATA[<p>My <a href="http://ironcladlou.github.com/blog/2012/12/21/gaming-htpc-fundamentals/">gaming HTPC</a> needed lots of wireless stuff to control it: a universal IR remote, XBox 360 controllers, a keyboard, mouse, and headset. In this article I&#8217;ll talk about the components I used to get everything I wanted with zero fuss.</p>
+
+<!-- more -->
+
+
+<h2>The bare minimum: ye olde keyboard and mouse</h2>
+
+<p>The first order of business was to get a wireless keyboard and mouse combo. To start, I already had a <a href="http://www.amazon.com/Microsoft-Arc-Wireless-Keyboard-Xbox/dp/B002VR6A9K/ref=sr_1_1?ie=UTF8&amp;qid=1356142492&amp;sr=8-1&amp;keywords=microsoft+arc+keyboard">Microsoft Arc</a> wireless keyboard. It&#8217;s cheap, tiny, the keys feel good, has a tiny receiver, and the battery lasts forever. Good enough for all basic purposes.</p>
+
+<p>I also happened to have a <a href="http://www.amazon.com/Microsoft-Wireless-Mobile-Mouse-3500/dp/B003PBZNF8/ref=sr_1_4?s=electronics&amp;ie=UTF8&amp;qid=1356142560&amp;sr=1-4&amp;keywords=microsoft+wireless+travel+mouse">Microsoft Wireless Mobile mouse</a>, which fits thematically with the Arc.</p>
+
+<p>All supported out of the box in Windows 7.</p>
+
+<p>Since gaming is a top priority in this setup, I may revisit these components in the future. There are a few low-latency wireless mice out there from Logitech and Razer which may be better suited for FPS gaming with the keyboard/mouse. For now, I&#8217;m content to stick to my XBox controllers and the parts I have.</p>
+
+<h2>An HTPC your mom can use has an IR receiver</h2>
+
+<p>The primary function of my HTPC is to serve as a human friendly media center using XBMC. This <em>requires</em> compatibility with my <a href="http://store.vizio.com/review/product/list/id/625/category/74/">Vizio XRU100 remote</a>. The remote is a real sleeper hit: it was about $10 USD at a local Wal-Mart and controls my TV, my <a href="http://www.amazon.com/Sony-HT-CT150-Sound-Bar-System/dp/B003C1AO2I">Sony HT-CT150 receiver</a>, and my HTPC. Incredibly, it&#8217;s also Windows MCE compatible. Between that and the unlikelyhood that it would work with my famously proprietary Sony product makes it an incredible value.</p>
+
+<p>The world of USB IR receivers is not very well documented. Finding a standlone receiver with true MCE compatibility seems to be a real crapshoot. This <a href="http://www.techpowerup.com/forums/showthread.php?t=98630">ancient guide</a> got me started on the basics of MCE comaptibility and IR receiver challenges. From there, it was a matter of reading a ton of Amazon customer comments for various IR receiver/remote combos to find one which was actually MCE conformant and was relatively cheap.</p>
+
+<p>I got lucky. The <a href="http://www.amazon.com/gp/product/B0028N6XDA/ref=oh_details_o02_s00_i02">Azend GP-IR01BK</a> was cheap, and came with a receiver which:</p>
+
+<ul>
+<li>Was plug-n-play out of the box with Windows 7 Ultimate 64-bit</li>
+<li>Had true MCE compatibility and so worked with the Vizio remote using the MCE code</li>
+<li>Integrated flawlessly out of the box with XBMC and Windows Media Center</li>
+</ul>
+
+
+<p>Of course, the remote that came with the package is completely useless to me, but $25 for a perfectly functional receiver was a great deal.</p>
+
+<h2>Recycle those XBox controllers</h2>
+
+<p>I have an XBox 360 collecting dust in a box and a couple of controllers. Valve is pushing XBox 360 controller support as part of their Big Picture rollout. Microsoft produces a USB receiver for the XBox controllers. Adding support for these seemed like a no-brainer.</p>
+
+<p>Beware!</p>
+
+<p>There are <em>numerous</em> knockoff XBox 360 USB receivers on Amazon, eBay and the like. Many of them are even fraudulently branded with Microsoft holograms and packaging. My understanding is that at some point in the past Microsoft did actually sell the receiver separately, but does so no longer. Read the customer comments and purchase these standalone receivers at your own risk. Many of the knockoffs are reported to have varying degrees of driver issues</p>
+
+<p>I wanted to expand my controller collection to three, and also wanted a genuine Microsoft product. It turns out there was a way to kill two birds with one stone. Microsoft sells a <a href="http://www.amazon.com/gp/product/B004QRKWKQ/ref=oh_details_o02_s00_i00">Wireless Controller for Windows</a> which is just a typical XBox 360 controller <em>with the official receiver</em> included.</p>
+
+<p>Like everything else, it was completely plug-n-play: The receiver&#8217;s drivers were automatically installed, and I was able to sync all three of my controllers and use them in Trine 2 within a minute.</p>
+
+<p>No fuss.</p>
+
+<h2>On to the software</h2>
+
+<p>With all of my hardware in place, I moved on to the chore of integrating three necessary but disparate front-ends: XBMC, Steam, and Netflix (via Windows Media Center). Check out my followup articles for more.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Gaming HTPC Adventures: Adding IR remote, XBox 360 controller, and wireless keyboard/mouse support]]></title>
-    <link href="http://ironcladlou.github.com/blog/2012/12/20/gaming-htpc-adventures-adding-ir-remote/"/>
-    <updated>2012-12-20T23:15:00-05:00</updated>
-    <id>http://ironcladlou.github.com/blog/2012/12/20/gaming-htpc-adventures-adding-ir-remote</id>
-    <content type="html"><![CDATA[<p>TODO: Doc this stuff</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Gaming HTPC Adventures: Fundamentals]]></title>
-    <link href="http://ironcladlou.github.com/blog/2012/12/20/gaming-htpc-adventures-fundamentals/"/>
-    <updated>2012-12-20T23:10:00-05:00</updated>
-    <id>http://ironcladlou.github.com/blog/2012/12/20/gaming-htpc-adventures-fundamentals</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[Gaming HTPC Fundamentals]]></title>
+    <link href="http://ironcladlou.github.com/blog/2012/12/21/gaming-htpc-fundamentals/"/>
+    <updated>2012-12-21T18:58:00-05:00</updated>
+    <id>http://ironcladlou.github.com/blog/2012/12/21/gaming-htpc-fundamentals</id>
+    <content type="html"><![CDATA[<p>After years of success with media-only HTPC solutions, I decided to take things a step further and set up a machine capable of doing it all: XBMC, Netflix, and high performance modern gaming with Steam. This is the first in a small series of articles on my experience creating a silent gaming HTPC.</p>
+
+<!-- more -->
+
+
+<p>To preface, I have a pretty small but meaty set of requirements:</p>
+
+<ul>
+<li>XBMC front-end</li>
+<li>Netflix support</li>
+<li>Modern gaming capabilities via Steam (via Big Picture mode)</li>
+<li>Full support for universal IR remotes and XBox 360 controllers</li>
+<li>Silent operation (not to be confused with quiet operation)</li>
+</ul>
+
+
+<p>Here&#8217;s what it took.</p>
+
+<h2>The computer under the stairs</h2>
+
+<p>The desire for both silence and gaming support poses an especially difficult challenge, and forces some important compromises. The new AMD Trinity APUs are promising, but not quite powerful enough for my gaming needs (modern titles, high detail settings, 720p resolution). A recent <a href="http://www.theverge.com/2012/11/30/3706718/forget-the-ps4-and-the-xbox-720-build-your-own-steambox-on-the-cheap">Verge article</a> and <a href="http://gist.io/4199804">Hackernews member guide</a> provide some details on Trinity based &#8220;Steambox&#8221; setups. At their low wattage, they can be run in a very quiet configuration, but the performance compromise is too much for me.</p>
+
+<p>I opted to take an approach which completely sidesteps these issues: Place my beefy mid-tower gaming rig in the basement directly beneath the entertainment center, and use some strategic cable runs and outboard USB equipment to provide all the required connectivity.</p>
+
+<p>If you can possibly manage this physical isolation, it seems like the best of all worlds. No compromises on performance, expandibility, or noise.</p>
+
+<h2>On the mapping of pixels</h2>
+
+<p>An important consideration with any HTPC setup is determining how to connect your PC to an LCD TV. Read up on <a href="http://pixelmapping.wikispaces.com/Pixel+mapping+explained">pixel mapping</a>, and determine if and how your TV supports 1:1 mapping. In the case of my Vizio 42&#8221; LCD display, 1:1 mapping can only be achieved via the analog VGA connection. Attempts to output video from my PC to the TV via an HDMI connection results in frustration and failure as a significant number of pixels are clipped. This is not correctable via my TV&#8217;s settings or by video driver configuration.</p>
+
+<h2>Speaking of VGA and HDMI&#8230;</h2>
+
+<p>Once I understood the limitations of my setup in terms of video connectivity, I was concerned I&#8217;d be stuck with inferior quality video due to the VGA output requirement. My concerns turned out to be baseless: 720p output to my TV via the analog connection looks just as crisp and vibrant as the HDMI-based video I&#8217;d been using with the AppleTV. If you find yourself in a similar situation, give it a try. You might be pleasantly surprised.</p>
+
+<h2>Laying the foundation</h2>
+
+<p>There isn&#8217;t much to say here. I started with an existing tower rig, and used the following base components to get things wired up and set the stage for the connectivity I wanted:</p>
+
+<ul>
+<li>10ft DVI to VGA cable for video</li>
+<li>10ft S/PDIF cable for audio</li>
+<li>10ft USB cable</li>
+<li>10ft ethernet cable</li>
+<li>A powered, 7-port <a href="http://www.amazon.com/gp/product/B00008VFAF/ref=oh_details_o01_s00_i00">USB hub</a></li>
+</ul>
+
+
+<p>The powered USB hub was very important to my configuration. As the computer is in a different room, I need as many ports and as much juice as possible. The D-Link works perfectly and is tiny, although the casing and connectors feel a bit flimsy. Overall, a great value.</p>
+
+<h2>Getting to work</h2>
+
+<p>In the following articles, I&#8217;ll talk about how I introduced a ton of convenient wireless input methods, some tricks to integrate the software, and anything else along the way.</p>
 ]]></content>
   </entry>
   

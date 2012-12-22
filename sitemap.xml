@@ -1,29 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>
-            http://ironcladlou.github.com/blog/2012/12/20/gaming-htpc-adventures-fundamentals/
-        </loc>
-        <lastmod>2012-12-21T09:45:56-05:00</lastmod>
+        <loc>http://ironcladlou.github.com/blog/2012/12/21/gaming-htpc-fundamentals/</loc>
+        <lastmod>2012-12-21T21:33:48-05:00</lastmod>
     </url>
     <url>
         <loc>
-            http://ironcladlou.github.com/blog/2012/12/20/gaming-htpc-adventures-adding-ir-remote/
+            http://ironcladlou.github.com/blog/2012/12/21/adding-wireless-everything-to-the-gaming-htpc/
         </loc>
-        <lastmod>2012-12-21T09:45:56-05:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://ironcladlou.github.com/blog/2012/12/20/gaming-htpc-adventures-integrating-xbmc-steam-and-netflix/
-        </loc>
-        <lastmod>2012-12-21T09:45:56-05:00</lastmod>
+        <lastmod>2012-12-21T21:28:53-05:00</lastmod>
     </url>
     <url>
         <loc>http://ironcladlou.github.com/blog/archives/</loc>
-        <lastmod>2012-12-21T09:45:56-05:00</lastmod>
+        <lastmod>2012-12-21T21:33:48-05:00</lastmod>
     </url>
     <url>
         <loc>http://ironcladlou.github.com/</loc>
-        <lastmod>2012-12-21T09:45:56-05:00</lastmod>
+        <lastmod>2012-12-21T21:33:48-05:00</lastmod>
     </url>
 </urlset>
