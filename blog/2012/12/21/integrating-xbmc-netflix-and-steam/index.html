@@ -179,13 +179,49 @@
 
 <h2>Jumping through hoops for Netflix</h2>
 
-<p>The only way I know of to use Netflix in a remote-compatible way in Windows is via the Netflix plugin within Windows Media Center. The arcane and opaque nature of WMC made figuring out how to launch the Netflix plugin directly from the command line a bit trickier. I lucked out with some Google searching, and was able to find a command to jump straight to Netflix. Caveat: There is a benign proxy error that appears during the Netflix loading which must be dismissed. It&#8217;s possible to automatically dismiss it with AutoHotkey, but I haven&#8217;t yet spent the time to do so. Here&#8217;s the script:</p>
+<p>The only way I know of to use Netflix in a remote-compatible way in Windows is via the Netflix plugin within Windows Media Center. The arcane and opaque nature of WMC made figuring out how to launch the Netflix plugin directly from the command line a bit trickier. I lucked out with some Google searching, and was able to find a command to jump straight to Netflix. A little time spent with the AutoHotkey Window Spy utility revealed the Media Center window class for manipulation.</p>
+
+<p>Here&#8217;s the script:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>TODO: Insert the script upon my glorious return to the home</span></code></pre></td></tr></table></div></figure>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>#NoEnv
+</span><span class='line'>SendMode Input
+</span><span class='line'>SetWorkingDir %A_ScriptDir%
+</span><span class='line'>#Persistent
+</span><span class='line'>#SingleInstance
+</span><span class='line'>
+</span><span class='line'>if WinExist("ahk_class eHome Render Window")
+</span><span class='line'>  WinActivate
+</span><span class='line'>else
+</span><span class='line'>  run, C:\Windows\ehome\ehshell.exe /url:windowsmediacenterapp:{e6f46126-f8a9-4a97-9159-b70b07890112}\{982ea9d3-915c-4713-a3c8-99a4688b7c59}?EntryPointParameters=
+</span><span class='line'>
+</span><span class='line'>WinWait, ahk_class eHome Render Window
+</span><span class='line'>WinWaitClose, ahk_class eHome Render Window
+</span><span class='line'>WinActivate ahk_class XBMC
+</span><span class='line'>ExitApp</span></code></pre></td></tr></table></div></figure>
 
 
-<p>One other minor annoyance is that exiting Windows Media Center with the remote takes some menu diving. There&#8217;s probably a faster way to accomplish it, but I haven&#8217;t cared enough to figure it out yet.</p>
+<p>Caveats:</p>
+
+<ul>
+<li>There is a benign proxy error that appears during the Netflix loading which must be dismissed. It&#8217;s possible to automatically dismiss it with AutoHotkey, but I haven&#8217;t yet spent the time to do so.</li>
+<li>Exiting Windows Media Center with the remote takes some menu diving. There&#8217;s probably a faster way to accomplish it, but I haven&#8217;t cared enough to figure it out yet.</li>
+</ul>
+
 
 <h2>What else?</h2>
 
