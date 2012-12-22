@@ -4,7 +4,7 @@
   <title><![CDATA[Category: htpc | Dan Mace]]></title>
   <link href="http://ironcladlou.github.com/blog/categories/htpc/atom.xml" rel="self"/>
   <link href="http://ironcladlou.github.com/"/>
-  <updated>2012-12-21T22:24:35-05:00</updated>
+  <updated>2012-12-21T22:27:15-05:00</updated>
   <id>http://ironcladlou.github.com/</id>
   <author>
     <name><![CDATA[Dan Mace]]></name>
@@ -18,7 +18,7 @@
     <link href="http://ironcladlou.github.com/blog/2012/12/21/integrating-xbmc-netflix-and-steam/"/>
     <updated>2012-12-21T21:35:00-05:00</updated>
     <id>http://ironcladlou.github.com/blog/2012/12/21/integrating-xbmc-netflix-and-steam</id>
-    <content type="html"><![CDATA[<p>With my <a href="/blog/2012/12/21/gaming-htpc-fundamentals/">core gaming HTPC</a> in place and <a href="/blog/2012/12/21/adding-wireless-everything-to-the-gaming-htpc/">wireless connectivity</a> with almost no effort, I found some interesting challenges with software integration. Ultimately, I found a way to almost seamlessly integrate XBMC, Steam, and Netflix, using XBMC as the primary front-end. It took some hacking, but was well worth it, and best of all: no keyboard or mouse required.</p>
+    <content type="html"><![CDATA[<p>With my <a href="/blog/2012/12/21/gaming-htpc-fundamentals/">core gaming HTPC</a> in place and <a href="/blog/2012/12/21/adding-wireless-everything-to-the-gaming-htpc/">wireless connectivity</a> and no trouble along the way, I found some interesting challenges with software integration. Ultimately, I found a way to almost seamlessly integrate XBMC, Steam, and Netflix using XBMC as the primary front-end. It took some hacking, but was well worth it, and best of all: no keyboard or mouse required.</p>
 
 <!-- more -->
 
