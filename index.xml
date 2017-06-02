@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bit Bangin&#39; on Bit Bangin&#39;</title>
-    <link>http://bitbang.in/</link>
+    <link>https://bitbang.in/</link>
     <description>Recent content in Bit Bangin&#39; on Bit Bangin&#39;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Visualizing community group geographic distribution</title>
-      <link>http://bitbang.in/post/visualizing-group-distribution/</link>
+      <link>https://bitbang.in/post/visualizing-group-distribution/</link>
       <pubDate>Sat, 01 Jul 2017 12:00:00 +0000</pubDate>
       
-      <guid>http://bitbang.in/post/visualizing-group-distribution/</guid>
+      <guid>https://bitbang.in/post/visualizing-group-distribution/</guid>
       <description>&lt;p&gt;Our county 4-H club members are widely distributed geographically. Visualizing
 the member distribution with a heatmap may be useful to inform decisions which
 affect members in ways impacted by the location of members&amp;rsquo; homes.&lt;/p&gt;
@@ -25,27 +25,27 @@ certin radius of family home address locations.&lt;/p&gt;
 
 &lt;div id=&#34;map&#34; style=&#34;width: 100%; height: 426px;&#34;&gt;&lt;/div&gt;
 
-&lt;script async src=&#34;http://bitbang.in/js/4h-heatmap.js&#34;&gt;&lt;/script&gt;
+&lt;script async src=&#34;https://bitbang.in/js/4h-heatmap.js&#34;&gt;&lt;/script&gt;
 &lt;script async defer src=&#34;https://maps.googleapis.com/maps/api/js?key=AIzaSyDFkAfkhfgW-p5gOG4srLnQtlgPEOMr7Ro&amp;libraries=visualization&amp;callback=initMap&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     
     <item>
       <title>Example Talk</title>
-      <link>http://bitbang.in/talk/example-talk/</link>
+      <link>https://bitbang.in/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://bitbang.in/talk/example-talk/</guid>
+      <guid>https://bitbang.in/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Deep Learning</title>
-      <link>http://bitbang.in/project/deep-learning/</link>
+      <link>https://bitbang.in/project/deep-learning/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bitbang.in/project/deep-learning/</guid>
+      <guid>https://bitbang.in/project/deep-learning/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -60,29 +60,29 @@ certin radius of family home address locations.&lt;/p&gt;
     
     <item>
       <title>External Project</title>
-      <link>http://bitbang.in/project/example-external-project/</link>
+      <link>https://bitbang.in/project/example-external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://bitbang.in/project/example-external-project/</guid>
+      <guid>https://bitbang.in/project/example-external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>http://bitbang.in/publication/person-re-identification/</link>
+      <link>https://bitbang.in/publication/person-re-identification/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://bitbang.in/publication/person-re-identification/</guid>
+      <guid>https://bitbang.in/publication/person-re-identification/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Mobile visual clothing search</title>
-      <link>http://bitbang.in/publication/clothing-search/</link>
+      <link>https://bitbang.in/publication/clothing-search/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://bitbang.in/publication/clothing-search/</guid>
+      <guid>https://bitbang.in/publication/clothing-search/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>

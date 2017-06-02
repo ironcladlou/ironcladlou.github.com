@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Bit Bangin&#39;</title>
-    <link>http://bitbang.in/publication_types/1/</link>
+    <link>https://bitbang.in/publication_types/1/</link>
     <description>Recent content in 1 on Bit Bangin&#39;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Mobile visual clothing search</title>
-      <link>http://bitbang.in/publication/clothing-search/</link>
+      <link>https://bitbang.in/publication/clothing-search/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://bitbang.in/publication/clothing-search/</guid>
+      <guid>https://bitbang.in/publication/clothing-search/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
