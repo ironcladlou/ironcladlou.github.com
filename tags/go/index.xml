@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on Bit Bangin&#39;</title>
-    <link>https://bitbang.in/tags/go/</link>
+    <link>http://bitbang.in/tags/go/</link>
     <description>Recent content in Go on Bit Bangin&#39;</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Visualizing community group geographic distribution</title>
-      <link>https://bitbang.in/post/visualizing-group-distribution/</link>
+      <link>http://bitbang.in/post/visualizing-group-distribution/</link>
       <pubDate>Sat, 01 Jul 2017 12:00:00 +0000</pubDate>
       
-      <guid>https://bitbang.in/post/visualizing-group-distribution/</guid>
+      <guid>http://bitbang.in/post/visualizing-group-distribution/</guid>
       <description>&lt;p&gt;Our county 4-H club members are widely distributed geographically. Visualizing
 the member distribution with a heatmap may be useful to inform decisions which
 affect members in ways impacted by the location of members&amp;rsquo; homes.&lt;/p&gt;
@@ -25,7 +25,7 @@ certin radius of family home address locations.&lt;/p&gt;
 
 &lt;div id=&#34;map&#34; style=&#34;width: 100%; height: 426px;&#34;&gt;&lt;/div&gt;
 
-&lt;script async src=&#34;https://bitbang.in/js/4h-heatmap.js&#34;&gt;&lt;/script&gt;
+&lt;script async src=&#34;http://bitbang.in/js/4h-heatmap.js&#34;&gt;&lt;/script&gt;
 &lt;script async defer src=&#34;https://maps.googleapis.com/maps/api/js?key=AIzaSyDFkAfkhfgW-p5gOG4srLnQtlgPEOMr7Ro&amp;libraries=visualization&amp;callback=initMap&#34;&gt;&lt;/script&gt;
 </description>
     </item>
